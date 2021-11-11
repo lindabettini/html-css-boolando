@@ -17,6 +17,13 @@
     display: inline-block;
     position: relative;
     background-color: darkgrey;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.card:hover{
+    cursor: pointer;
 }
 
 .item-details{
@@ -33,7 +40,7 @@
     bottom: 20px;
 }
 
-.mark{
+.item-details .mark{
     color: red;
     font-weight: bold;
 }
@@ -57,11 +64,12 @@
     right: 0;
 }
 
+.favorite:hover{
+    color:rgb(235,0,55);
+}
+
 /* Cards pictures */
 #levis{
     background-image: url(img/1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
