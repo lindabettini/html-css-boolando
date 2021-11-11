@@ -47,7 +47,7 @@ img {
     font-size: 20px;
     top: 20px;
     right: 0;
-    z-index: 100;
+    z-index: 1;
 }
 
 .favorite:hover{
@@ -62,7 +62,7 @@ img {
     position: absolute;
     bottom: 55px;
     left: 0;
-    z-index: 100;
+    z-index: 1;
 }
 
 .sustainable{
@@ -73,7 +73,7 @@ img {
     position: absolute;
     bottom: 55px;
     left: 60px;
-    z-index: 100;
+    z-index: 1;
 }
 
 .mark{
@@ -81,14 +81,13 @@ img {
     font-weight: bold;
 }
 
-/* Cards pictures */
+/* Cards effect */
 
 .card .img-hover {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 99;
 }
 .card:hover .img-hover {
     display: inline-block;
