@@ -13,10 +13,9 @@
 .card{
     width: calc(100% / 3 - 15px);
     height: 550px;
-    margin: 5px;
+    margin: 10px 5px 50px 5px; 
     display: inline-block;
     position: relative;
-    background-color: darkgrey;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;    
@@ -28,7 +27,7 @@
 
 .item-details{
     position:absolute;
-    top: 560px;
+    top: 540px;
 }
 
 .discount{
@@ -37,7 +36,7 @@
     color: white;
     font-size: 18px;
     position: absolute;
-    bottom: 20px;
+    bottom: 28px;
 }
 
 .item-details .mark{
@@ -51,7 +50,7 @@
     color: white;
     font-size: 18px;
     position: absolute;
-    bottom: 20px;
+    bottom: 28px;
     left: 60px;
 }
 
@@ -69,7 +68,26 @@
 }
 
 /* Cards pictures */
-#levis{
+#levis-relaxed{
     background-image: url(img/1.webp);
 }
 
+#guess{
+    background-image: url(img/2.webp);
+}
+
+#come-zucchero-filato{
+    background-image: url(img/3.webp);
+}
+
+#levis{
+    background-image: url(img/4.webp);
+}
+
+#maya-deluxe{
+    background-image: url(img/5.webp);
+}
+
+#esprit{
+    background-image: url(img/6.webp);
+}
