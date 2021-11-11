@@ -8,10 +8,24 @@
     margin: 20px 10%;
 }
 
+/* Generics */
+
 .card{
-    height: 600px;
     width: calc(100% / 3 - 15px);
+    height: 550px;
     margin: 5px;
-    background-color: grey;
     display: inline-block;
+    position: relative;
+    background-color: darkgrey;
 }
+
+.item-details{
+    position:absolute;
+    top: 560px;
+}
+
+/* Cards pictures */
+#levis{
+    background-image: url(img/1.webp);
+}
+
