@@ -24,8 +24,44 @@
     top: 560px;
 }
 
+.discount{
+    background:rgb(235,0,55);
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+}
+
+.mark{
+    color: red;
+    font-weight: bold;
+}
+
+.sustainable{
+    background:rgb(4,137,92);
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+.favorite{
+    background-color: white;
+    padding: 5px 10px;
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    right: 0;
+}
+
 /* Cards pictures */
 #levis{
     background-image: url(img/1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
