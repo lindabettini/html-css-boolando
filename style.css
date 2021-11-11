@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    margin: 20px 10%;
+}
+
+.card{
+    height: 600px;
+    width: calc(100% / 3 - 15px);
+    margin: 5px;
+    background-color: grey;
+    display: inline-block;
+}
