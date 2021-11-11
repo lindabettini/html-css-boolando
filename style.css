@@ -30,28 +30,11 @@
     top: 540px;
 }
 
-.discount{
-    background:rgb(235,0,55);
-    padding: 5px;
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    bottom: 28px;
-}
+/* Utilities */
 
 .item-details .mark{
     color: red;
     font-weight: bold;
-}
-
-.sustainable{
-    background:rgb(4,137,92);
-    padding: 5px;
-    color: white;
-    font-size: 18px;
-    position: absolute;
-    bottom: 28px;
-    left: 60px;
 }
 
 .favorite{
@@ -67,27 +50,71 @@
     color:rgb(235,0,55);
 }
 
+.discount{
+    background:rgb(235,0,55);
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 28px;
+}
+
+.sustainable{
+    background:rgb(4,137,92);
+    padding: 5px;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    bottom: 28px;
+    left: 60px;
+}
+
 /* Cards pictures */
+
 #levis-relaxed{
     background-image: url(img/1.webp);
+}
+
+#levis-relaxed:hover{
+    background-image: url(img/1b.webp);
 }
 
 #guess{
     background-image: url(img/2.webp);
 }
 
+#guess:hover{
+    background-image: url(img/2b.webp);
+}
+
 #come-zucchero-filato{
     background-image: url(img/3.webp);
+}
+
+#come-zucchero-filato:hover{
+    background-image: url(img/3b.webp);
 }
 
 #levis{
     background-image: url(img/4.webp);
 }
 
+#levis:hover{
+    background-image: url(img/4b.webp);
+}
+
 #maya-deluxe{
     background-image: url(img/5.webp);
 }
 
+#maya-deluxe:hover{
+    background-image: url(img/5b.webp);
+}
+
 #esprit{
     background-image: url(img/6.webp);
+}
+
+#esprit:hover{
+    background-image: url(img/6b.webp);
 }
